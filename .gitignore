@@ -1,0 +1,14 @@
+# Local Python environments — use the go2sim conda env instead (see documentation_setup.txt)
+.venv/
+venv311/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Unused robot assets not referenced by any lesson script
+assets/go1_description/
+assets/h1_description/
+assets/mug/
+
+# OS cruft
+.DS_Store
